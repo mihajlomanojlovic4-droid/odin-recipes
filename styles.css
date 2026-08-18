@@ -1,0 +1,34 @@
+h1 {
+    color:antiquewhite;
+    background-color: rgb(35, 118, 243);
+    text-align: center;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.btn {
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    margin: 10px auto;
+    color:white;
+    text-align: center;
+    border: 2px inset white;
+    font-size: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(35, 118, 243);
+}
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
